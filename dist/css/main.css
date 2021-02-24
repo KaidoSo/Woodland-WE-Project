@@ -64,6 +64,8 @@ ul, li {
 
 .header nav {
   border: 1px solid red;
+  border-radius: 0.625rem;
+  overflow: hidden;
 }
 
 .header__logo {
