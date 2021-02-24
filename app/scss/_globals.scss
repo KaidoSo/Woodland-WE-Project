@@ -10,6 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: $font-med;
     line-height: 1.0625rem; // 17px
@@ -37,5 +38,25 @@ ul, li {
 
     &-ai-c {
         align-items: center;
+    }
+}
+
+// Spacing
+
+.container {
+    margin: 0 auto;
+
+    &--pall {
+        padding: 2.5rem; // 40px
+    }
+
+    &--py {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    &--px {
+        padding-right: 2.5rem;
+        padding-bottom: 2.5rem;
     }
 }

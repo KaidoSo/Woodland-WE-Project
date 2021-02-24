@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -39,6 +40,24 @@ ul, li {
   align-items: center;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.container--pall {
+  padding: 2.5rem;
+}
+
+.container--py {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.container--px {
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .header {
   position: relative;
 }
@@ -48,7 +67,17 @@ ul, li {
 }
 
 .header__logo {
+  width: 200px;
+  height: 80px;
   background-color: #4b424f;
+}
+
+.header__logo .logo-image {
+  background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/woodland-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 1.375rem;
+  min-height: 2.125rem;
 }
 
 .header__links ul {
