@@ -1,1 +1,5 @@
-console.log('test');
+const menu_btn = document.querySelector('.hamburger');
+
+menu_btn.addEventListener('click', function(){
+    menu_btn.classList.toggle('is-active');
+});

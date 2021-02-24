@@ -29,3 +29,19 @@
         transition: 0.4s;
         }
 }
+
+.is-active {
+
+    &:before {
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+
+    .hamburger__bar {
+        opacity: 0;
+    }
+
+    &:after {
+        transform: rotate(45deg) translate(-4px, -2px);
+    }
+
+}
