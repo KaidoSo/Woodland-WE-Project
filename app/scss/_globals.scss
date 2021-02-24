@@ -10,8 +10,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat' sans-serif;
-    font-size: 0.875rem; // 14px
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font-med;
     line-height: 1.0625rem; // 17px
 }
 
