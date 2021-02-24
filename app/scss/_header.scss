@@ -1,7 +1,12 @@
 .header {
 
-    &__logo {
+    nav {
 
+    }
+
+    &__logo {
+        background-color: $logoBrown;
+        
         img {
 
         }
