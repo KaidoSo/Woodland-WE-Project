@@ -107,10 +107,19 @@ ul, li {
 .header__links ul {
   display: inline-flex;
   padding-left: 0;
+  margin: 0;
 }
 
 .header__links ul li {
   padding: 0rem 1.875rem;
+  border-right: 1px solid #dfdfdf;
+  line-height: 80px;
+}
+
+@media (max-width: 70.75rem) {
+  .header__links ul li {
+    line-height: 40px;
+  }
 }
 
 .header__links ul li a {

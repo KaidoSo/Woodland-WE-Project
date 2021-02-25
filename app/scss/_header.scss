@@ -34,10 +34,18 @@
         ul {
             display: inline-flex;
             padding-left: 0;
+            margin: 0;
             
 
             li {
                 padding: 0rem 1.875rem;
+                border-right: 1px solid #dfdfdf;
+                line-height: 80px;
+
+                @include breakpoint-down(special){
+                    line-height: 40px;
+                }
+
                 a {
                     color: $black;
 
