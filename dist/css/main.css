@@ -32,6 +32,10 @@ ul, li {
   justify-content: space-between;
 }
 
+.flex-jc-fs {
+  justify-content: flex-start;
+}
+
 .flex-jc-c {
   justify-content: center;
 }
@@ -80,6 +84,12 @@ ul, li {
   overflow: hidden;
 }
 
+@media (max-width: 63.9375em) {
+  .header nav {
+    justify-content: space-between;
+  }
+}
+
 .header__logo {
   width: 200px;
   height: 80px;
@@ -96,6 +106,7 @@ ul, li {
 
 .header__links ul {
   display: inline-flex;
+  padding-left: 0;
 }
 
 .header__links ul li a {

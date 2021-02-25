@@ -6,6 +6,10 @@
         border: 1px solid red;
         border-radius: 0.625rem; // 10px
         overflow: hidden;
+
+        @include breakpoint-down(medium){
+            justify-content: space-between;
+        }
     }
 
     &__logo {
@@ -29,6 +33,7 @@
 
         ul {
             display: inline-flex;
+            padding-left: 0;
             
 
             li {
