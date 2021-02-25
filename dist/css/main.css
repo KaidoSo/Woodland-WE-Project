@@ -117,6 +117,10 @@ ul, li {
   color: #000000;
 }
 
+.header__links ul li a:hover {
+  color: #aa15e4;
+}
+
 .header__sub-menu ul li a {
   font-size: 0.6875rem;
   line-height: 0.8125rem;
