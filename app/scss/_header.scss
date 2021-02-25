@@ -37,7 +37,7 @@
             
 
             li {
-
+                padding: 0rem 1.875rem;
                 a {
                     color: $black;
                 }
@@ -58,6 +58,10 @@
                 }
             }
         }
+    }
+
+    &__facebook {
+        padding-right: 1.875rem;
     }
 }
 
