@@ -81,7 +81,7 @@
 .is-active {
 
     &:before {
-        transform: rotate(-45deg) translate(-8px, 6px);
+        transform: rotate(-45deg) translate(-4px, 6px);
     }
 
     .hamburger__bar {
@@ -89,7 +89,7 @@
     }
 
     &:after {
-        transform: rotate(45deg) translate(-4px, -2px);
+        transform: rotate(45deg) translate(-4px, -6px);
     }
 
 }

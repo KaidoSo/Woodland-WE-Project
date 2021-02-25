@@ -66,8 +66,7 @@ ul, li {
 
 @media (min-width: 64em) {
   .hide-for-desktop {
-    display: none;
-    opacity: 0;
+    display: none !important;
   }
 }
 
@@ -130,7 +129,7 @@ ul, li {
 }
 
 .is-active:before {
-  transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-4px, 6px);
 }
 
 .is-active .hamburger__bar {
@@ -138,6 +137,6 @@ ul, li {
 }
 
 .is-active:after {
-  transform: rotate(45deg) translate(-4px, -2px);
+  transform: rotate(45deg) translate(-4px, -6px);
 }
 /*# sourceMappingURL=main.css.map */
