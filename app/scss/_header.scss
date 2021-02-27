@@ -43,11 +43,14 @@
                 line-height: 80px;
 
                 @include breakpoint-down(special){
-                    line-height: 40px;
+                    padding: 0rem 0.875rem;
                 }
 
                 a {
                     color: $black;
+                    white-space: nowrap;
+                    overflow: hidden;
+
 
                     &:hover {
                         color: $mainPurple;

@@ -118,12 +118,14 @@ ul, li {
 
 @media (max-width: 70.75rem) {
   .header__links ul li {
-    line-height: 40px;
+    padding: 0rem 0.875rem;
   }
 }
 
 .header__links ul li a {
   color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .header__links ul li a:hover {
