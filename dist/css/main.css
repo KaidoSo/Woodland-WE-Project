@@ -79,7 +79,6 @@ ul, li {
 }
 
 .header nav {
-  border: 1px solid red;
   border-radius: 0.625rem;
   overflow: hidden;
 }
@@ -132,7 +131,28 @@ ul, li {
   color: #aa15e4;
 }
 
-.header__sub-menu ul li a {
+.header__sub-menu {
+  flex-direction: column;
+  position: absolute;
+  top: 120px;
+  left: 656px;
+  text-align: center;
+}
+
+@media (max-width: 70.75rem) {
+  .header__sub-menu {
+    left: 560px;
+  }
+}
+
+.header__sub-menu li {
+  width: 220px;
+  height: 50px;
+  border: 1px solid #dfdfdf;
+  line-height: 50px !important;
+}
+
+.header__sub-menu li a {
   font-size: 0.6875rem;
   line-height: 0.8125rem;
 }
