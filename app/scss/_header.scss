@@ -65,6 +65,7 @@
         top: 120px;
         left: 656px;
         text-align: center;
+        visibility: hidden;
 
         @include breakpoint-down(special){
             left: 560px;
@@ -76,6 +77,11 @@
                 border: 1px solid #dfdfdf;
                 line-height: 50px !important;
 
+                &:last-child {
+                    border-bottom-left-radius: 0.625rem;
+                    border-bottom-right-radius: 0.625rem;
+                }
+
                 a {
                     font-size: $font-sm;
                     line-height: 0.8125rem; // 13px
@@ -86,6 +92,10 @@
     &__facebook {
         padding-right: 1.875rem;
     }
+}
+
+.header__links ul:hover ul{
+    visibility: visible;
 }
 
 .hamburger {

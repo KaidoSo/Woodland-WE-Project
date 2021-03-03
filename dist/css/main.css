@@ -137,6 +137,7 @@ ul, li {
   top: 120px;
   left: 656px;
   text-align: center;
+  visibility: hidden;
 }
 
 @media (max-width: 70.75rem) {
@@ -152,6 +153,11 @@ ul, li {
   line-height: 50px !important;
 }
 
+.header__sub-menu li:last-child {
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
+
 .header__sub-menu li a {
   font-size: 0.6875rem;
   line-height: 0.8125rem;
@@ -159,6 +165,10 @@ ul, li {
 
 .header__facebook {
   padding-right: 1.875rem;
+}
+
+.header__links ul:hover ul {
+  visibility: visible;
 }
 
 .hamburger {
