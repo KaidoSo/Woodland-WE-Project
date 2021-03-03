@@ -169,6 +169,17 @@ ul, li {
   padding-right: 1.875rem;
 }
 
+.down-arrow {
+  position: relative;
+  left: 25px;
+}
+
+@media (max-width: 70.75rem) {
+  .down-arrow {
+    left: 10px;
+  }
+}
+
 .header__links ul li:hover ul {
   visibility: visible;
 }
@@ -261,7 +272,7 @@ input {
   display: none;
 }
 
-[id=btn-1]:checked + ul {
+#btn-1:checked + ul {
   display: block;
   margin-right: 40px;
 }

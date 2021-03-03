@@ -96,6 +96,15 @@
     }
 }
 
+.down-arrow {
+    position: relative;
+    left: 25px;
+
+    @include breakpoint-down(special){
+        left: 10px;
+    }
+}
+
 .header__links ul li:hover ul{
     visibility: visible;
 }
@@ -195,7 +204,9 @@ input {
     display: none;
 }
 
-[id=btn-1]:checked + ul {
+#btn-1:checked + ul {
     display: block;
     margin-right: 40px;
 }
+
+
