@@ -169,7 +169,7 @@ ul, li {
   padding-right: 1.875rem;
 }
 
-.header__links ul:hover ul {
+.header__links ul li:hover ul {
   visibility: visible;
 }
 
