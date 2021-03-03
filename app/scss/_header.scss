@@ -138,6 +138,7 @@
 
 }
 
+// Mobile Menu
 .mobile__links {
     position: fixed;
     top: 0;
@@ -170,4 +171,31 @@
         }
     }
 
+}
+
+.show {
+    display: block;
+    margin: 0 auto 16px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 16px;
+    border-radius: 0.625rem;
+    background-color: $logoBrown;
+    color: $white;
+    cursor: pointer;
+}
+
+// Mobile sub-menu
+input {
+    display: none;
+}
+
+.mobile__sub-menu {
+    display: none;
+}
+
+[id=btn-1]:checked + ul {
+    display: block;
+    margin-right: 40px;
 }
