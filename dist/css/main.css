@@ -210,13 +210,18 @@ ul, li {
 .mobile__links {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 100%;
   width: 100%;
   min-height: 100vh;
   display: block;
   z-index: 98;
   background-color: #dfdfdf;
   padding-top: 150px;
+  transition: 0.4s;
+}
+
+.mobile__links.is-active {
+  left: 0;
 }
 
 .mobile__links ul li a {
