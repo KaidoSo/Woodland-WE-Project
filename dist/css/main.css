@@ -235,6 +235,10 @@ ul, li {
   left: 0;
 }
 
+.mobile__links ul {
+  padding-left: 0;
+}
+
 .mobile__links ul li a, .mobile__links .show {
   display: block;
   margin: 0 auto 16px;
@@ -262,6 +266,5 @@ input {
 
 #btn-1:checked + ul {
   display: block;
-  margin-right: 40px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -163,6 +163,10 @@
     &.is-active{
         left: 0;
     }
+
+    & ul {
+        padding-left: 0;
+    }
     
     & ul li a, .show {
         display: block;
@@ -194,7 +198,6 @@ input {
 
 #btn-1:checked + ul {
     display: block;
-    margin-right: 40px;
 }
 
 
