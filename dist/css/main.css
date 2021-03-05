@@ -138,7 +138,7 @@ ul, li {
   position: absolute;
   top: 120px;
   left: 656px;
-  text-align: center;
+  text-align: left;
   visibility: hidden;
 }
 
@@ -174,13 +174,14 @@ ul, li {
   padding-right: 1.875rem;
 }
 
-.down-arrow {
+.down-arrow, .right-arrow {
   position: relative;
   left: 25px;
+  color: #808080;
 }
 
 @media (max-width: 71.25em) {
-  .down-arrow {
+  .down-arrow, .right-arrow {
     left: 10px;
   }
 }
