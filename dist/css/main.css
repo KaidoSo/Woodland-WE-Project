@@ -129,9 +129,9 @@ ul, li {
   line-height: 80px;
 }
 
-@media (max-width: 71.25em) {
+@media (max-width: 76.25em) {
   .header__links ul li {
-    padding: 0rem 0.875rem;
+    padding: 0rem 0.75rem;
   }
 }
 
@@ -148,15 +148,15 @@ ul, li {
 .header__sub-menu {
   flex-direction: column;
   position: absolute;
-  top: 120px;
-  left: 656px;
+  top: 160px;
+  left: 697px;
   text-align: left;
   visibility: hidden;
 }
 
-@media (max-width: 71.25em) {
+@media (max-width: 76.25em) {
   .header__sub-menu {
-    left: 560px;
+    left: 588px;
   }
 }
 
@@ -166,6 +166,7 @@ ul, li {
   line-height: 50px !important;
   border-left: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
+  background-color: #FFFFFF;
 }
 
 .header__sub-menu li:first-child {
@@ -186,13 +187,19 @@ ul, li {
   padding-right: 1.875rem;
 }
 
+@media (max-width: 76.25em) {
+  .header__facebook {
+    padding-right: 0.875rem;
+  }
+}
+
 .down-arrow, .right-arrow {
   position: relative;
   left: 25px;
   color: #808080;
 }
 
-@media (max-width: 71.25em) {
+@media (max-width: 76.25em) {
   .down-arrow, .right-arrow {
     left: 10px;
   }

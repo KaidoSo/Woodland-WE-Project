@@ -38,12 +38,12 @@
             margin: 0;           
 
             li {
-                padding: 0rem 1.875rem;
+                padding: 0rem 1.875rem; // 30px
                 border-right: 1px solid $borderGray;
                 line-height: 80px;
 
                 @include breakpoint-down(special){
-                    padding: 0rem 0.875rem;
+                    padding: 0rem 0.75rem; // 12px
                 }
 
                 a {
@@ -64,13 +64,13 @@
     &__sub-menu {
         flex-direction: column;
         position: absolute;
-        top: 120px;
-        left: 656px;
+        top: 160px;
+        left: 697px;
         text-align: left;
         visibility: hidden;
 
         @include breakpoint-down(special){
-            left: 560px;
+            left: 588px;
         }
 
             li {
@@ -79,6 +79,7 @@
                 line-height: 50px !important;
                 border-left: 1px solid $borderGray;
                 border-bottom: 1px solid $borderGray;
+                background-color: $white;
 
                 &:first-child {
                     border-top: 1px solid $borderGray;
@@ -92,12 +93,17 @@
                 a {
                     font-size: $font-sm;
                     line-height: 0.8125rem; // 13px
+
                 }
             }
         }
 
     &__facebook {
-        padding-right: 1.875rem;
+        padding-right: 1.875rem;  // 30px
+
+        @include breakpoint-down(special){
+            padding-right: 0.875rem; // 14px
+        }
     }
 }
 
