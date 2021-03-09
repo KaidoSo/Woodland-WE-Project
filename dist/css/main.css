@@ -141,7 +141,7 @@ ul, li {
   overflow: hidden;
 }
 
-.header__links ul li a:hover {
+.header__links ul li:hover > a {
   color: #aa15e4;
 }
 

@@ -43,19 +43,20 @@
                     padding: 0rem 0.75rem; // 12px
                 }
 
-                a {
-                    color: $black;
-                    white-space: nowrap;
-                    overflow: hidden;
+                    a {
+                        color: $black;
+                        white-space: nowrap;
+                        overflow: hidden;
 
-
-                    &:hover {
-                        color: $mainPurple;
-                    }
-                }                
+                }
+                
+                &:hover > a {
+                    color: $mainPurple;
+                }
             }
         }
     }
+
 
     &__sub-menu {
         flex-direction: column;
@@ -69,30 +70,30 @@
             left: 588px;
         }
 
-            li {
-                width: 220px;
-                height: 50px;
-                line-height: 50px !important;
-                border-left: 1px solid $borderGray;
-                border-bottom: 1px solid $borderGray;
-                background-color: $white;
+        li {
+            width: 220px;
+            height: 50px;
+            line-height: 50px !important;
+            border-left: 1px solid $borderGray;
+            border-bottom: 1px solid $borderGray;
+            background-color: $white;
 
-                &:first-child {
-                    border-top: 1px solid $borderGray;
-                }
+            &:first-child {
+                border-top: 1px solid $borderGray;
+            }
 
-                &:last-child {
-                    border-bottom-left-radius: 0.625rem;
-                    border-bottom-right-radius: 0.625rem;
-                }
+            &:last-child {
+                border-bottom-left-radius: 0.625rem;
+                border-bottom-right-radius: 0.625rem;
+            }
 
-                a {
-                    font-size: $font-sm;
-                    line-height: 0.8125rem; // 13px
-
-                }
+            a {
+                font-size: $font-sm;
+                line-height: 0.8125rem; // 13px
             }
         }
+    }
+        
 
     &__facebook {
         padding-right: 1.875rem;  // 30px
@@ -102,6 +103,7 @@
         }
     }
 }
+
 
 .down-arrow, .right-arrow {
     position: relative;
@@ -192,7 +194,6 @@
             background-color: #665e69;
         }
     }
-
 }
 
 // Mobile sub-menu
@@ -207,5 +208,3 @@ input {
 #btn-1:checked + ul {
     display: block;
 }
-
-
