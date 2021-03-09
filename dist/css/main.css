@@ -49,7 +49,19 @@ ul, li {
 }
 
 .container--pall {
-  padding: 2.5rem;
+  padding: 1.25rem;
+}
+
+@media (min-width: 40.0625em) {
+  .container--pall {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  .container--pall {
+    padding: 5rem;
+  }
 }
 
 .container--py {
@@ -272,5 +284,29 @@ input {
 
 #btn-1:checked + ul {
   display: block;
+}
+
+#slideshow {
+  position: relative;
+  margin: 0 20px;
+}
+
+@media (min-width: 40.0625em) {
+  #slideshow {
+    position: absolute;
+    margin: 0;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  #slideshow {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

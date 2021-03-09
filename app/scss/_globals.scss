@@ -51,7 +51,17 @@ ul, li {
     margin: 0 auto;
 
     &--pall {
-        padding: 2.5rem; // 40px
+        padding: 1.25rem; // 20px
+        
+        @include breakpoint-up(medium){
+            padding: 2.5rem; // 40px
+        }
+
+        @include breakpoint-up(large){
+            padding: 5rem; // 80px
+        }
+
+
     }
 
     &--py {
