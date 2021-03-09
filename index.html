@@ -9,6 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/slick.css">
     <link rel="stylesheet" href="./dist/css/main.css">
     <script src="https://kit.fontawesome.com/7b50823f16.js" crossorigin="anonymous"></script>
     <title>Woodland Web Site</title>
@@ -51,7 +52,8 @@
 
         </nav>
     </header>
-    <div class="mobile__links hide-for-desktop">
+
+    <section class="mobile__links hide-for-desktop">
         <ul>
             <li><a href="#">The Product</a></li>
             <li><a href="#">Order Yours</a></li>
@@ -66,7 +68,32 @@
             </li>
             <li><a href="#">Get in touch with us</a></li>
         </ul>
-    </div>
+    </section>
+
+    <main>
+        
+        <section id="slideshow">
+            <div class="slick">
+                <div>
+                    <div><img class="slider_img" src="images/background-fox.png" alt="Fox"></div>
+                </div>
+                <div>
+                    <div><img class="slider_img" src="images/background-fox.png" alt="Fox"></div>
+                </div>
+                <div>
+                    <div><img class="slider_img" src="images/background-fox.png" alt="Fox"></div>
+                </div>
+            </div>
+            <div class="arrow_next">
+                <span><i class="fas fa-chevron-right"></i></span>
+            </div>
+            <div class="arrow_prev">
+                <span><i class="fas fa-chevron-left"></i></span>
+            </div>
+        </section>
+
+    </main>
+
 
     <script src="./app/js/script.js"></script>
 </body>
