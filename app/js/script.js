@@ -10,8 +10,8 @@ $(document).ready(function(){
     $('#slideshow .slick').slick({
         autoplay: false,
         speed: 1000,
-        prevArrow: '.arrow_prev',
-        nextArrow: '.arrow_next',
+        prevArrow: '.arrow-prev',
+        nextArrow: '.arrow-next',
         arrows: true,
         dots: true,
     });
