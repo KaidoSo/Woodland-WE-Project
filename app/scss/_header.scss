@@ -4,18 +4,22 @@
     z-index: 99;
 
     nav {
-        border-radius: 0.625rem; // 10px
+        border-radius: 0.4375rem; // 7px
         overflow: hidden;
         background-color: $white;
 
         @include breakpoint-down(medium){
             justify-content: space-between;
         }
+
+        @include breakpoint-down(small){
+            border: 1px solid $logoBrown;
+        }
     }
 
     &__logo {
-        width: 200px;
-        height: 80px;
+        width: 12.5rem; // 200px
+        height: 5rem; // 80px
         background-color: $logoBrown;
 
         .logo-image {
@@ -37,7 +41,7 @@
             li {
                 padding: 0rem 1.875rem; // 30px
                 border-right: 1px solid $borderGray;
-                line-height: 80px;
+                line-height: 5rem; // 80px
 
                 @include breakpoint-down(special){
                     padding: 0rem 0.75rem; // 12px
@@ -49,7 +53,7 @@
                         overflow: hidden;
 
                 }
-                
+
                 &:hover > a {
                     color: $mainPurple;
                 }
@@ -61,19 +65,19 @@
     &__sub-menu {
         flex-direction: column;
         position: absolute;
-        top: 160px;
-        left: 697px;
+        top: 10rem; // 160px
+        left: 43.5625rem; // 697px
         text-align: left;
         visibility: hidden;
 
         @include breakpoint-down(special){
-            left: 588px;
+            left: 36.75rem; // 588px
         }
 
         li {
-            width: 220px;
-            height: 50px;
-            line-height: 50px !important;
+            width: 13.75rem; // 220px
+            height: 3.125rem; // 50px
+            line-height: 3.125rem !important; // 50px
             border-left: 1px solid $borderGray;
             border-bottom: 1px solid $borderGray;
             background-color: $white;
@@ -83,8 +87,8 @@
             }
 
             &:last-child {
-                border-bottom-left-radius: 0.625rem;
-                border-bottom-right-radius: 0.625rem;
+                border-bottom-left-radius: 0.4375rem; // 7px
+                border-bottom-right-radius: 0.4375rem; // 7px
             }
 
             a {
@@ -107,11 +111,11 @@
 
 .down-arrow, .right-arrow {
     position: relative;
-    left: 25px;
+    left: 1.5625rem; // 25px
     color: #808080;
 
     @include breakpoint-down(special){
-        left: 10px;
+        left: 0.625rem // 10px
     }
 }
 
@@ -119,12 +123,13 @@
     visibility: visible;
 }
 
+// Mobile menu hamburger button
 .hamburger {
     position: relative;
     display: block;
     width: 2.4875rem; // 35px
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 1.25rem; // 20px
     appearance: none;
     background: none;
     outline: none;
@@ -167,7 +172,7 @@
     display: block;
     z-index: 98;
     background-color: $borderGray;
-    padding-top: 150px;
+    padding-top: 9.375rem; // 150px
     transition: 0.4s;
 
     &.is-active{
@@ -180,12 +185,12 @@
     
     & ul li a, .show {
         display: block;
-        margin: 0 auto 16px;
+        margin: 0 auto 1rem;
         text-align: center;
         width: 100%;
-        max-width: 300px;
-        padding: 12px 16px;
-        border-radius: 0.625rem;
+        max-width: 18.75rem; // 300px
+        padding: 0.75rem 1rem; // 12px 16px
+        border-radius: 0.4375rem; // 7px
         background-color: $logoBrown;
         color: $white;
         cursor: pointer;
