@@ -51,7 +51,6 @@
                         color: $black;
                         white-space: nowrap;
                         overflow: hidden;
-
                 }
 
                 &:hover > a {
@@ -94,6 +93,17 @@
             a {
                 font-size: $font-sm;
                 line-height: 0.8125rem; // 13px
+
+                .sub-arrow {
+                    display: inline-block;
+                    position: relative;
+                    left: 1.5625rem; // 25px
+                    width: 26px;
+                    height: 14px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-image: url('https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/small-right-arrow.png');
+                }
             }
         }
     }
@@ -109,7 +119,7 @@
 }
 
 
-.down-arrow, .right-arrow {
+.down-arrow {
     position: relative;
     left: 1.5625rem; // 25px
     color: #808080;

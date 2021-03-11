@@ -189,6 +189,17 @@ ul, li {
   line-height: 0.8125rem;
 }
 
+.header__sub-menu li a .sub-arrow {
+  display: inline-block;
+  position: relative;
+  left: 1.5625rem;
+  width: 26px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/small-right-arrow.png");
+}
+
 .header__facebook {
   padding-right: 1.875rem;
 }
@@ -199,14 +210,14 @@ ul, li {
   }
 }
 
-.down-arrow, .right-arrow {
+.down-arrow {
   position: relative;
   left: 1.5625rem;
   color: #808080;
 }
 
 @media (max-width: 76.25em) {
-  .down-arrow, .right-arrow {
+  .down-arrow {
     left: 0.625rem;
   }
 }
