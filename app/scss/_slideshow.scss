@@ -29,23 +29,31 @@
     .arrow {
         position: absolute;
         bottom: 50%;
+        width: 26px;
+        height: 14px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        cursor: pointer;
 
         @include breakpoint-up(medium) {
             bottom: 45%;
+            height: 30px;
         }
 
-        span {
-            font-size: 1.7rem;
-            color: $white;
-            cursor: pointer;
+        @include breakpoint-up(large) {
+            bottom: 45%;
+            height: 44px;
         }
+
     }
 
     .arrow-next {
         right: 2%;
+        background-image: url('https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/nav-right.png');
     }
     .arrow-prev {
         left: 2%;
+        background-image: url('https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/nav-left.png');
     }
 }
 

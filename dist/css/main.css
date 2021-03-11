@@ -326,26 +326,35 @@ input {
 #slideshow .arrow {
   position: absolute;
   bottom: 50%;
+  width: 26px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
 }
 
 @media (min-width: 40.0625em) {
   #slideshow .arrow {
     bottom: 45%;
+    height: 30px;
   }
 }
 
-#slideshow .arrow span {
-  font-size: 1.7rem;
-  color: #FFFFFF;
-  cursor: pointer;
+@media (min-width: 64.0625em) {
+  #slideshow .arrow {
+    bottom: 45%;
+    height: 44px;
+  }
 }
 
 #slideshow .arrow-next {
   right: 2%;
+  background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/nav-right.png");
 }
 
 #slideshow .arrow-prev {
   left: 2%;
+  background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/nav-left.png");
 }
 
 .slick-dots {
@@ -382,5 +391,12 @@ input {
 
 .slick-dots li.slick-active button {
   background-color: #fff;
+}
+
+.hero {
+  position: absolute;
+  z-index: 20;
+  top: 36%;
+  left: 8%;
 }
 /*# sourceMappingURL=main.css.map */
