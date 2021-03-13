@@ -1,0 +1,43 @@
+.features {
+
+}
+
+.feature {
+
+    &__content {
+
+    }
+
+    &__grid {
+
+        .feature-1 {
+            background: $videoPurple;
+        }
+
+        .feature-2 {
+            background: linear-gradient(180deg, $lightGreen, $darkGreen);
+        }
+
+        .feature-3 {
+            background: linear-gradient(180deg, $lightYellow, $darkYellow);
+        }
+
+    }
+
+    &__item {
+
+    }
+
+    &__img {
+
+    }
+
+    &__headline {
+        
+    }
+
+    &__text {
+
+    }
+
+}

@@ -559,4 +559,16 @@ input {
     border: solid 3px #FFFFFF;
   }
 }
+
+.feature__grid .feature-1 {
+  background: #7a418f;
+}
+
+.feature__grid .feature-2 {
+  background: linear-gradient(180deg, #768159, #5F6451);
+}
+
+.feature__grid .feature-3 {
+  background: linear-gradient(180deg, #B07821, #94711F);
+}
 /*# sourceMappingURL=main.css.map */
