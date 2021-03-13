@@ -152,14 +152,20 @@ ul, li {
 }
 
 .header__links ul li .down-arrow {
+  display: inline-block;
+  vertical-align: middle;
   position: relative;
-  left: 1.5625rem;
-  color: #808080;
+  left: 2.0625rem;
+  width: 26px;
+  height: 78px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/menu-down-arrow.png");
 }
 
 @media (max-width: 76.25em) {
   .header__links ul li .down-arrow {
-    left: 0.625rem;
+    left: 0.9375rem;
   }
 }
 
@@ -226,6 +232,10 @@ ul, li {
   .header__facebook {
     padding-right: 0.875rem;
   }
+}
+
+.header__facebook img {
+  vertical-align: middle;
 }
 
 .header__links ul li:hover ul {

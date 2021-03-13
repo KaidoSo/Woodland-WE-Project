@@ -58,12 +58,18 @@
                 }
 
                 .down-arrow {
+                    display: inline-block;
+                    vertical-align: middle;
                     position: relative;
-                    left: 1.5625rem; // 25px
-                    color: #808080;
+                    left: 2.0625rem; // 33px
+                    width: 26px;
+                    height: 78px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-image: url('https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/menu-down-arrow.png');
                 
                     @include breakpoint-down(special){
-                        left: 0.625rem // 10px
+                        left: 0.9375rem // 15px
                     }
                 }
             }
@@ -128,6 +134,10 @@
 
         @include breakpoint-down(special){
             padding-right: 0.875rem; // 14px
+        }
+
+        img {
+            vertical-align: middle;
         }
     }
 }
