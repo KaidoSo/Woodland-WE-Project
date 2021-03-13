@@ -47,14 +47,24 @@
                     padding: 0rem 0.75rem; // 12px
                 }
 
-                    a {
-                        color: $black;
-                        white-space: nowrap;
-                        overflow: hidden;
+                a {
+                    color: $black;
+                    white-space: nowrap;
+                    overflow: hidden;
                 }
 
                 &:hover > a {
                     color: $mainPurple;
+                }
+
+                .down-arrow {
+                    position: relative;
+                    left: 1.5625rem; // 25px
+                    color: #808080;
+                
+                    @include breakpoint-down(special){
+                        left: 0.625rem // 10px
+                    }
                 }
             }
         }
@@ -81,6 +91,10 @@
             border-bottom: 1px solid $borderGray;
             background-color: $white;
 
+            @include breakpoint-down(special){
+                width: 11.875rem; // 190px
+            }
+
             &:first-child {
                 border-top: 1px solid $borderGray;
             }
@@ -93,17 +107,17 @@
             a {
                 font-size: $font-sm;
                 line-height: 0.8125rem; // 13px
+            }
 
-                .sub-arrow {
-                    display: inline-block;
-                    position: relative;
-                    left: 1.5625rem; // 25px
-                    width: 26px;
-                    height: 14px;
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-image: url('https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/small-right-arrow.png');
-                }
+            .sub-arrow {
+                display: inline-block;
+                position: relative;
+                left: 1.5625rem; // 25px
+                width: 26px;
+                height: 14px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-image: url('https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/small-right-arrow.png');
             }
         }
     }
@@ -115,17 +129,6 @@
         @include breakpoint-down(special){
             padding-right: 0.875rem; // 14px
         }
-    }
-}
-
-
-.down-arrow {
-    position: relative;
-    left: 1.5625rem; // 25px
-    color: #808080;
-
-    @include breakpoint-down(special){
-        left: 0.625rem // 10px
     }
 }
 
