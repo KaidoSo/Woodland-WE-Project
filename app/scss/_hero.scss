@@ -30,6 +30,12 @@
 
         @include breakpoint-up(special){
             display: inline-block;
+            width: 55%;
+            margin-bottom: 10px;
+        }
+
+        @include breakpoint-up(xlarge){
+            font-size: 1rem;
         }
     }
 
@@ -50,10 +56,20 @@
             box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
             
             @include breakpoint-up(medium){
-                height: 36px;
-                font-size: 7px;
+                height: 40px;
+                font-size: 9px;
+                border-radius: 0.4375rem; // 7px
             }
 
+            @include breakpoint-up(large){
+                height: 46px;
+                font-size: 10px;
+            }
+
+            @include breakpoint-up(special){
+                height: 70px;
+                font-size: $font-med;
+            }
 
         }
 
@@ -63,18 +79,36 @@
             background: $mainPurple;
 
             @include breakpoint-up(medium){
-                width: 113px;
+                width: 150px;
+            }
+
+            @include breakpoint-up(large){
+                width: 200px;
+            }
+
+            @include breakpoint-up(special){
+                width: 225px;
             }
         }
 
         .transp_button {
             width: 58px;
             background: transparent;
-            border: solid 1px #ffffff;
+            border: solid 1px $white;
 
             @include breakpoint-up(medium){
                 margin-left: 10px;
-                width: 72px;
+                width: 85px;
+                border: solid 2px $white;
+            }
+
+            @include breakpoint-up(medium){
+                width: 100px;
+            }
+
+            @include breakpoint-up(special){
+                width: 130px;
+                border: solid 3px $white;
             }
         }
     }
