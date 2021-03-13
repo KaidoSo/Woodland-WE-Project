@@ -16,6 +16,10 @@ body {
     line-height: 1.0625rem; // 17px
 }
 
+p {
+    color: $white;
+}
+
 a, a:visited, a:hover {
     text-decoration: none;
 }

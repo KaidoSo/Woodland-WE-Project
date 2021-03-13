@@ -16,6 +16,10 @@ body {
   line-height: 1.0625rem;
 }
 
+p {
+  color: #FFFFFF;
+}
+
 a, a:visited, a:hover {
   text-decoration: none;
 }
@@ -423,7 +427,87 @@ input {
 .hero {
   position: absolute;
   z-index: 20;
-  top: 36%;
-  left: 8%;
+  top: 22%;
+  left: 10%;
+  right: 10%;
+}
+
+@media (min-width: 40.0625em) {
+  .hero {
+    top: 33%;
+  }
+}
+
+.hero__block_text {
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 0px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 76.3125em) {
+  .hero__block_text {
+    font-size: 4vw;
+  }
+}
+
+.hero__block_text .purple_text {
+  color: #aa15e4;
+}
+
+.hero__small_text {
+  display: none;
+}
+
+@media (min-width: 76.3125em) {
+  .hero__small_text {
+    display: inline-block;
+  }
+}
+
+.hero__buttons .button {
+  height: 5vw;
+  color: #FFFFFF;
+  font-size: 6px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  border-radius: 3px;
+  border: none;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 40.0625em) {
+  .hero__buttons .button {
+    height: 36px;
+    font-size: 7px;
+  }
+}
+
+.hero__buttons .purple_button {
+  width: 100px;
+  background: #aa15e4;
+}
+
+@media (min-width: 40.0625em) {
+  .hero__buttons .purple_button {
+    width: 113px;
+  }
+}
+
+.hero__buttons .transp_button {
+  width: 58px;
+  background: transparent;
+  border: solid 1px #ffffff;
+}
+
+@media (min-width: 40.0625em) {
+  .hero__buttons .transp_button {
+    margin-left: 10px;
+    width: 72px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

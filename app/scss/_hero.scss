@@ -1,29 +1,81 @@
 .hero {
     position: absolute;
     z-index: 20;
-    top: 36%;
-    left: 8%;
+    top: 22%;
+    left: 10%;
+    right: 10%;
+
+    @include breakpoint-up(medium){
+        top: 33%;
+    }
 
     &__block_text {
-
-        .purple_text {
-
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 0px;
+        text-transform: uppercase;
+        
+        @include breakpoint-up(special){
+            font-size: 4vw;
         }
 
+
+        .purple_text {
+            color: $mainPurple;
+        }
     }
 
     &__small_text {
+        display: none;
 
+        @include breakpoint-up(special){
+            display: inline-block;
+        }
     }
 
     &__buttons {
 
-        .purple_buton {
+        .button {
+            height: 5vw;
+            color: $white;
+            font-size: 6px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            border-radius: 3px;
+            border: none;
+            text-decoration: none;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            white-space: nowrap;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            
+            @include breakpoint-up(medium){
+                height: 36px;
+                font-size: 7px;
+            }
+
 
         }
 
+
+        .purple_button {
+            width: 100px;
+            background: $mainPurple;
+
+            @include breakpoint-up(medium){
+                width: 113px;
+            }
+        }
+
         .transp_button {
-            
+            width: 58px;
+            background: transparent;
+            border: solid 1px #ffffff;
+
+            @include breakpoint-up(medium){
+                margin-left: 10px;
+                width: 72px;
+            }
         }
     }
 
