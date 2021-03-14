@@ -600,6 +600,7 @@ input {
 
 .feature__grid .feature-1 {
   background: #7a418f;
+  padding: 30px;
 }
 
 @media (min-width: 40.0625em) {
@@ -611,15 +612,30 @@ input {
 @media (min-width: 64.0625em) {
   .feature__grid .feature-1 {
     grid-column: 1;
+    padding: 60px;
   }
 }
 
 .feature__grid .feature-2 {
   background: linear-gradient(180deg, #768159, #5F6451);
+  padding: 15px 30px;
+}
+
+@media (min-width: 64.0625em) {
+  .feature__grid .feature-2 {
+    padding: 30px 60px;
+  }
 }
 
 .feature__grid .feature-3 {
   background: linear-gradient(180deg, #B07821, #94711F);
+  padding: 15px 30px;
+}
+
+@media (min-width: 64.0625em) {
+  .feature__grid .feature-3 {
+    padding: 30px 60px;
+  }
 }
 
 .feature__item {
