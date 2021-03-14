@@ -93,6 +93,25 @@ ul, li {
 .header {
   position: relative;
   z-index: 99;
+  padding: 1.25rem 1.25rem 0 1.25rem;
+}
+
+@media (min-width: 40.0625em) {
+  .header {
+    position: absolute;
+    margin: 0;
+    top: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  .header {
+    top: 3.75rem;
+    left: 3.75rem;
+    right: 3.75rem;
+  }
 }
 
 .header nav {
@@ -109,7 +128,7 @@ ul, li {
 
 @media (max-width: 40em) {
   .header nav {
-    border: 1px solid #4b424f;
+    border: 0.0625rem solid #4b424f;
   }
 }
 
@@ -135,7 +154,7 @@ ul, li {
 
 .header__links ul li {
   padding: 0rem 1.875rem;
-  border-right: 1px solid #dfdfdf;
+  border-right: 0.0625rem solid #dfdfdf;
   line-height: 5rem;
 }
 
@@ -160,8 +179,8 @@ ul, li {
   vertical-align: middle;
   position: relative;
   left: 2.0625rem;
-  width: 26px;
-  height: 78px;
+  width: 1.625rem;
+  height: 4.875rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/menu-down-arrow.png");
@@ -176,15 +195,15 @@ ul, li {
 .header__sub-menu {
   flex-direction: column;
   position: absolute;
-  top: 10rem;
-  left: 43.5625rem;
+  top: 6.25rem;
+  left: 39.8125rem;
   text-align: left;
   visibility: hidden;
 }
 
 @media (max-width: 76.25em) {
   .header__sub-menu {
-    left: 36.75rem;
+    left: 33rem;
   }
 }
 
@@ -192,8 +211,8 @@ ul, li {
   width: 13.75rem;
   height: 3.125rem;
   line-height: 3.125rem !important;
-  border-left: 1px solid #dfdfdf;
-  border-bottom: 1px solid #dfdfdf;
+  border-left: 0.0625rem solid #dfdfdf;
+  border-bottom: 0.0625rem solid #dfdfdf;
   background-color: #FFFFFF;
 }
 
@@ -204,7 +223,7 @@ ul, li {
 }
 
 .header__sub-menu li:first-child {
-  border-top: 1px solid #dfdfdf;
+  border-top: 0.0625rem solid #dfdfdf;
 }
 
 .header__sub-menu li:last-child {
@@ -221,8 +240,8 @@ ul, li {
   display: inline-block;
   position: relative;
   left: 1.5625rem;
-  width: 26px;
-  height: 14px;
+  width: 1.625rem;
+  height: 0.875rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url("https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/small-right-arrow.png");
@@ -332,33 +351,20 @@ input {
 
 #slideshow {
   position: relative;
-  margin: 0 20px;
-}
-
-@media (min-width: 40.0625em) {
-  #slideshow {
-    position: absolute;
-    margin: 0;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-  }
+  margin: 1.25rem;
 }
 
 @media (min-width: 64.0625em) {
   #slideshow {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    right: 40px;
+    margin: 2.5rem;
   }
 }
 
 #slideshow .arrow {
   position: absolute;
   bottom: 50%;
-  width: 26px;
-  height: 14px;
+  width: 1.625rem;
+  height: 0.875rem;
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
@@ -367,14 +373,14 @@ input {
 @media (min-width: 40.0625em) {
   #slideshow .arrow {
     bottom: 45%;
-    height: 30px;
+    height: 1.875rem;
   }
 }
 
 @media (min-width: 64.0625em) {
   #slideshow .arrow {
     bottom: 45%;
-    height: 44px;
+    height: 2.75rem;
   }
 }
 

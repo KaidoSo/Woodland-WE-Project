@@ -1,39 +1,28 @@
 #slideshow {
     position: relative;
-    margin: 0 20px;
-
-    @include breakpoint-up(medium){
-        position: absolute;
-        margin: 0;
-        top: 20px;
-        left: 20px;
-        right: 20px;
-    }
+    margin: 1.25rem; // 20px
 
     @include breakpoint-up(large){
-        position: absolute;
-        top: 40px;
-        left: 40px;
-        right: 40px;
+        margin: 2.5rem; // 40px
     }
 
     .arrow {
         position: absolute;
         bottom: 50%;
-        width: 26px;
-        height: 14px;
+        width: 1.625rem; // 26px
+        height: 0.875rem; // 14px
         background-repeat: no-repeat;
         background-position: center center;
         cursor: pointer;
 
         @include breakpoint-up(medium) {
             bottom: 45%;
-            height: 30px;
+            height: 1.875rem; // 30px
         }
 
         @include breakpoint-up(large) {
             bottom: 45%;
-            height: 44px;
+            height: 2.75rem; // 44px
         }
     }
 
