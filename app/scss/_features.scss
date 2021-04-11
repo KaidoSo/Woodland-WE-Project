@@ -13,6 +13,7 @@
 
         @include breakpoint-up(large){
             grid-template-columns: 2fr 1fr 1fr;
+            grid-template-rows: none;
             column-gap: 2.5rem; // 40px
         }
     }

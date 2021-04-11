@@ -609,6 +609,7 @@ input {
 @media (min-width: 64.0625em) {
   .feature__grid {
     grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: none;
     column-gap: 2.5rem;
   }
 }
