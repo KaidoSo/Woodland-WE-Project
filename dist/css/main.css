@@ -16,6 +16,11 @@ body {
   line-height: 1.0625rem;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 p {
   color: #FFFFFF;
 }
@@ -601,6 +606,7 @@ input {
 .feature__item {
   margin-bottom: 1.25rem;
   display: grid;
+  justify-items: center;
 }
 
 @media (min-width: 64.0625em) {
@@ -616,15 +622,23 @@ input {
   background-position: center center;
 }
 
+.feature__text {
+  color: #FFFFFF;
+  padding-left: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
 .feature-1 {
   background: #7a418f;
-  padding: 30px;
+  padding: 20px;
   grid-auto-flow: column;
 }
 
 @media (min-width: 40.0625em) {
   .feature-1 {
     grid-column: 1/3;
+    padding: 30px;
   }
 }
 
@@ -640,27 +654,50 @@ input {
   width: 100px;
 }
 
-.feature-2 {
-  background: linear-gradient(180deg, #768159, #5F6451);
-  padding: 15px 30px;
-  justify-items: center;
+.feature-1 h1 {
+  font-size: 4vw;
 }
 
 @media (min-width: 64.0625em) {
-  .feature-2 {
+  .feature-1 h1 {
+    font-size: 1.5vw;
+  }
+}
+
+.feature-1 p {
+  font-size: 0.875rem;
+}
+
+.feature-2, .feature-3 {
+  padding: 15px 30px;
+}
+
+@media (min-width: 64.0625em) {
+  .feature-2, .feature-3 {
     padding: 30px 60px;
   }
+}
+
+.feature-2 h1, .feature-3 h1 {
+  font-size: 16px;
+}
+
+@media (min-width: 40.0625em) {
+  .feature-2 h1, .feature-3 h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.feature-2 p, .feature-3 p {
+  font-size: 0.6875rem;
+}
+
+.feature-2 {
+  background: linear-gradient(180deg, #768159, #5F6451);
 }
 
 .feature-3 {
   background: linear-gradient(180deg, #B07821, #94711F);
-  padding: 15px 30px;
-  justify-items: center;
-}
-
-@media (min-width: 64.0625em) {
-  .feature-3 {
-    padding: 30px 60px;
-  }
 }
 /*# sourceMappingURL=main.css.map */

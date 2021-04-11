@@ -16,6 +16,11 @@ body {
     line-height: 1.0625rem; // 17px
 }
 
+h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 p {
     color: $white;
 }
