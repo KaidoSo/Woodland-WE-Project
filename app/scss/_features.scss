@@ -78,7 +78,7 @@
         }
 
         @include breakpoint-up(xlarge){
-            font-size: 30px;
+            font-size: 2vw;
         }
     }
 
@@ -99,6 +99,11 @@
 
         @include breakpoint-up(medium){
             font-size: 18px;
+            line-height: 24px;
+        }
+
+        @include breakpoint-up(xlarge){
+            font-size: 1.3vw;
             line-height: 24px;
         }
     }

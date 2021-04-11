@@ -672,7 +672,7 @@ input {
 
 @media (min-width: 87.5625em) {
   .feature-1 h1 {
-    font-size: 30px;
+    font-size: 2vw;
   }
 }
 
@@ -697,6 +697,13 @@ input {
 @media (min-width: 40.0625em) {
   .feature-2 h1, .feature-3 h1 {
     font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 87.5625em) {
+  .feature-2 h1, .feature-3 h1 {
+    font-size: 1.3vw;
     line-height: 24px;
   }
 }
