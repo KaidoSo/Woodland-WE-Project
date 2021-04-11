@@ -95,6 +95,16 @@ ul, li {
   }
 }
 
+.container--ml {
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 64.0625em) {
+  .container--ml {
+    margin-bottom: 2.5rem;
+  }
+}
+
 @media (max-width: 64em) {
   .hide-for-mobile {
     display: none;
@@ -718,5 +728,15 @@ input {
 
 .feature-3 {
   background: linear-gradient(180deg, #B07821, #94711F);
+}
+
+.footer #map {
+  height: 260px;
+  width: 100%;
+}
+
+.footer .contacts {
+  height: 260px;
+  background-color: blueviolet;
 }
 /*# sourceMappingURL=main.css.map */
