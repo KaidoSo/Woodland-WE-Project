@@ -738,6 +738,20 @@ input {
 
 .footer .contacts {
   height: 260px;
-  background-color: blueviolet;
+  background: linear-gradient(180deg, #131030, #56394D);
+  text-align: center;
+}
+
+.footer .contacts .address {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  line-height: 35px;
+}
+
+.footer .contacts .rights {
+  margin-top: 0;
+  font-size: 10px;
+  color: #785674;
 }
 /*# sourceMappingURL=main.css.map */
