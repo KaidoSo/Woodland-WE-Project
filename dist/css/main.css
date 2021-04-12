@@ -14,6 +14,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   line-height: 1.0625rem;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -747,6 +748,10 @@ input {
   margin-bottom: 0;
   padding-top: 30px;
   line-height: 35px;
+}
+
+.footer .contacts a {
+  color: #FFFFFF;
 }
 
 .footer .contacts .rights {
