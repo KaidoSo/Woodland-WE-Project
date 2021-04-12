@@ -6,14 +6,14 @@ Project could be viewed live at: (https://kaidoso.github.io/Woodland-WE-Project/
 
 ### Screen Shot
 
-![Fullscreen](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/images/FullScreenShot.png)
+![Fullscreen](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/FullScreenShot.png)
 
-![Mobile](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/images/MobileScreenShot.png)
+![Mobile](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/MobileScreenShot.png)
 
 # Recreating a website after and image
 
 I took this image: 
-![Preview](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/images/Preview.png) 
+![Preview](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/Preview.png) 
 as a template and built a functioning responsive landing page.
 
 # Adding google maps API key
