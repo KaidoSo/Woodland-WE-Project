@@ -10,7 +10,7 @@ Project could be viewed live at: (https://kaidoso.github.io/Woodland-WE-Project/
 
 ![Mobile](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/MobileScreenShot.png)
 
-# Recreating a website after and image
+# Recreating a website after an image
 
 I took this image: 
 ![Preview](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/Preview.png) 
