@@ -12,9 +12,9 @@ Project could be viewed live at: (https://kaidoso.github.io/Woodland-WE-Project/
 
 # Recreating a website after an image
 
-I took this image: 
+
 ![Preview](https://raw.githubusercontent.com/KaidoSo/Woodland-WE-Project/main/images/Preview.png) 
-as a template and built a functioning responsive landing page.
+I took an image as a template and built a functioning responsive landing page.
 
 # Adding google maps API key
 
